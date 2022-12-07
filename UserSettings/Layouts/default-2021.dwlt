@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 58
+  controlID: 20
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,9 +64,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1095.2
+    x: 1101.6
     y: 0
-    width: 440.80005
+    width: 434.40002
     height: 770.8
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
@@ -93,7 +93,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 265.6
+    width: 332
     height: 456
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -119,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 456
-    width: 1095.2
+    width: 1101.6
     height: 314.8
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -219,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1095.2
+    width: 1101.6
     height: 770.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 91
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1095.2
+    width: 1101.6
     height: 456
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 85
+  controlID: 68
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,12 +265,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 265.6
+    x: 332
     y: 0
-    width: 829.6
+    width: 769.6
     height: 456
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
@@ -382,9 +382,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1095.2001
+    x: 1101.6
     y: 73.6
-    width: 439.80005
+    width: 433.40002
     height: 749.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -398,8 +398,8 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 2
-  activeTab: 2
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -600,18 +600,399 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-11-21T13:30:51.098+01:00
+      updatedTimeString: 2022-12-07T10:13:37.902+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-11-21T13:30:40.163+01:00
+      updatedTimeString: 2022-12-07T10:15:16.081+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2022-11-21T13:29:27.537+01:00
+      updatedTimeString: 2022-12-07T10:02:48.627+01:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 7eeed742506d7ea97ebb2a2d612cd0e9a2eab58c
+      mergeA: 
+      mergeB: 
+      authorName: Itziar Mensa
+      authorEmail: itziar.mensa@estudiantat.upc.edu
+      commitEmail: itziar.mensa@estudiantat.upc.edu
+      commitName: Itziar Mensa
+      summary: Video 4 completat
+      description: 
+      timeString: 2022-12-07T09:17:23.000+01:00
+      commitTimeString: 2022-12-07T09:17:23.000+01:00
+      changes:
+      - path: Assets\Scripts.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Scripts.meta
+        projectPath: Assets\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\BoardManager.cs
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Scripts\BoardManager.cs
+        projectPath: Assets\Scripts\BoardManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\BoardManager.cs.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Scripts\BoardManager.cs.meta
+        projectPath: Assets\Scripts\BoardManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\GameManager.cs
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Scripts\GameManager.cs
+        projectPath: Assets\Scripts\GameManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\GameManager.cs.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Scripts\GameManager.cs.meta
+        projectPath: Assets\Scripts\GameManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 9aedb9ebb1d5c49e1a68fd7991b609da3f36f861
+      mergeA: 
+      mergeB: 
+      authorName: Itziar Mensa
+      authorEmail: itziar.mensa@estudiantat.upc.edu
+      commitEmail: itziar.mensa@estudiantat.upc.edu
+      commitName: Itziar Mensa
+      summary: Video 3 completat
+      description: 
+      timeString: 2022-12-06T20:50:53.000+01:00
+      commitTimeString: 2022-12-06T20:50:53.000+01:00
+      changes:
+      - path: Assets\Prefabs\Exit.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Exit.prefab
+        projectPath: Assets\Prefabs\Exit.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Exit.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Exit.prefab.meta
+        projectPath: Assets\Prefabs\Exit.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor1.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor1.prefab
+        projectPath: Assets\Prefabs\Floor1.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor1.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor1.prefab.meta
+        projectPath: Assets\Prefabs\Floor1.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor2.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor2.prefab
+        projectPath: Assets\Prefabs\Floor2.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor2.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor2.prefab.meta
+        projectPath: Assets\Prefabs\Floor2.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor3.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor3.prefab
+        projectPath: Assets\Prefabs\Floor3.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor3.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor3.prefab.meta
+        projectPath: Assets\Prefabs\Floor3.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor4.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor4.prefab
+        projectPath: Assets\Prefabs\Floor4.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor4.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor4.prefab.meta
+        projectPath: Assets\Prefabs\Floor4.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor5.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor5.prefab
+        projectPath: Assets\Prefabs\Floor5.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor5.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor5.prefab.meta
+        projectPath: Assets\Prefabs\Floor5.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor6.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor6.prefab
+        projectPath: Assets\Prefabs\Floor6.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor6.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor6.prefab.meta
+        projectPath: Assets\Prefabs\Floor6.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor7.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor7.prefab
+        projectPath: Assets\Prefabs\Floor7.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor7.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor7.prefab.meta
+        projectPath: Assets\Prefabs\Floor7.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor8.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor8.prefab
+        projectPath: Assets\Prefabs\Floor8.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Floor8.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Floor8.prefab.meta
+        projectPath: Assets\Prefabs\Floor8.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Food.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Food.prefab
+        projectPath: Assets\Prefabs\Food.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Food.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Food.prefab.meta
+        projectPath: Assets\Prefabs\Food.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\OuterWall1.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\OuterWall1.prefab
+        projectPath: Assets\Prefabs\OuterWall1.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\OuterWall1.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\OuterWall1.prefab.meta
+        projectPath: Assets\Prefabs\OuterWall1.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\OuterWall2.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\OuterWall2.prefab
+        projectPath: Assets\Prefabs\OuterWall2.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\OuterWall2.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\OuterWall2.prefab.meta
+        projectPath: Assets\Prefabs\OuterWall2.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\OuterWall3.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\OuterWall3.prefab
+        projectPath: Assets\Prefabs\OuterWall3.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\OuterWall3.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\OuterWall3.prefab.meta
+        projectPath: Assets\Prefabs\OuterWall3.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Soda.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Soda.prefab
+        projectPath: Assets\Prefabs\Soda.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Soda.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Soda.prefab.meta
+        projectPath: Assets\Prefabs\Soda.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall1.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall1.prefab
+        projectPath: Assets\Prefabs\Wall1.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall1.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall1.prefab.meta
+        projectPath: Assets\Prefabs\Wall1.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall2.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall2.prefab
+        projectPath: Assets\Prefabs\Wall2.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall2.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall2.prefab.meta
+        projectPath: Assets\Prefabs\Wall2.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall3.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall3.prefab
+        projectPath: Assets\Prefabs\Wall3.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall3.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall3.prefab.meta
+        projectPath: Assets\Prefabs\Wall3.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall4.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall4.prefab
+        projectPath: Assets\Prefabs\Wall4.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall4.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall4.prefab.meta
+        projectPath: Assets\Prefabs\Wall4.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall5.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall5.prefab
+        projectPath: Assets\Prefabs\Wall5.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall5.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall5.prefab.meta
+        projectPath: Assets\Prefabs\Wall5.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall6.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall6.prefab
+        projectPath: Assets\Prefabs\Wall6.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall6.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall6.prefab.meta
+        projectPath: Assets\Prefabs\Wall6.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall7.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall7.prefab
+        projectPath: Assets\Prefabs\Wall7.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall7.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall7.prefab.meta
+        projectPath: Assets\Prefabs\Wall7.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall8.prefab
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall8.prefab
+        projectPath: Assets\Prefabs\Wall8.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Wall8.prefab.meta
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\Assets\Prefabs\Wall8.prefab.meta
+        projectPath: Assets\Prefabs\Wall8.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat 6
+          - Unity\Tutorial\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 9a0110e58c0b5c7df6a052a1f3a94d90691aaed1
       mergeA: 
       mergeB: 
@@ -2351,14 +2732,395 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2022-11-21T13:30:51.574+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2022-11-21T13:30:51.574+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 7eeed742506d7ea97ebb2a2d612cd0e9a2eab58c
+        mergeA: 
+        mergeB: 
+        authorName: Itziar Mensa
+        authorEmail: itziar.mensa@estudiantat.upc.edu
+        commitEmail: itziar.mensa@estudiantat.upc.edu
+        commitName: Itziar Mensa
+        summary: Video 4 completat
+        description: 
+        timeString: 2022-12-07T09:17:23.000+01:00
+        commitTimeString: 2022-12-07T09:17:23.000+01:00
+        changes:
+        - path: Assets\Scripts.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Scripts.meta
+          projectPath: Assets\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\BoardManager.cs
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Scripts\BoardManager.cs
+          projectPath: Assets\Scripts\BoardManager.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\BoardManager.cs.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Scripts\BoardManager.cs.meta
+          projectPath: Assets\Scripts\BoardManager.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\GameManager.cs
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Scripts\GameManager.cs
+          projectPath: Assets\Scripts\GameManager.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\GameManager.cs.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Scripts\GameManager.cs.meta
+          projectPath: Assets\Scripts\GameManager.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 9aedb9ebb1d5c49e1a68fd7991b609da3f36f861
+        mergeA: 
+        mergeB: 
+        authorName: Itziar Mensa
+        authorEmail: itziar.mensa@estudiantat.upc.edu
+        commitEmail: itziar.mensa@estudiantat.upc.edu
+        commitName: Itziar Mensa
+        summary: Video 3 completat
+        description: 
+        timeString: 2022-12-06T20:50:53.000+01:00
+        commitTimeString: 2022-12-06T20:50:53.000+01:00
+        changes:
+        - path: Assets\Prefabs\Exit.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Exit.prefab
+          projectPath: Assets\Prefabs\Exit.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Exit.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Exit.prefab.meta
+          projectPath: Assets\Prefabs\Exit.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor1.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor1.prefab
+          projectPath: Assets\Prefabs\Floor1.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor1.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor1.prefab.meta
+          projectPath: Assets\Prefabs\Floor1.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor2.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor2.prefab
+          projectPath: Assets\Prefabs\Floor2.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor2.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor2.prefab.meta
+          projectPath: Assets\Prefabs\Floor2.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor3.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor3.prefab
+          projectPath: Assets\Prefabs\Floor3.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor3.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor3.prefab.meta
+          projectPath: Assets\Prefabs\Floor3.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor4.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor4.prefab
+          projectPath: Assets\Prefabs\Floor4.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor4.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor4.prefab.meta
+          projectPath: Assets\Prefabs\Floor4.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor5.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor5.prefab
+          projectPath: Assets\Prefabs\Floor5.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor5.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor5.prefab.meta
+          projectPath: Assets\Prefabs\Floor5.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor6.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor6.prefab
+          projectPath: Assets\Prefabs\Floor6.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor6.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor6.prefab.meta
+          projectPath: Assets\Prefabs\Floor6.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor7.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor7.prefab
+          projectPath: Assets\Prefabs\Floor7.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor7.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor7.prefab.meta
+          projectPath: Assets\Prefabs\Floor7.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor8.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor8.prefab
+          projectPath: Assets\Prefabs\Floor8.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Floor8.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Floor8.prefab.meta
+          projectPath: Assets\Prefabs\Floor8.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Food.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Food.prefab
+          projectPath: Assets\Prefabs\Food.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Food.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Food.prefab.meta
+          projectPath: Assets\Prefabs\Food.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\OuterWall1.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\OuterWall1.prefab
+          projectPath: Assets\Prefabs\OuterWall1.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\OuterWall1.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\OuterWall1.prefab.meta
+          projectPath: Assets\Prefabs\OuterWall1.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\OuterWall2.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\OuterWall2.prefab
+          projectPath: Assets\Prefabs\OuterWall2.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\OuterWall2.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\OuterWall2.prefab.meta
+          projectPath: Assets\Prefabs\OuterWall2.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\OuterWall3.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\OuterWall3.prefab
+          projectPath: Assets\Prefabs\OuterWall3.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\OuterWall3.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\OuterWall3.prefab.meta
+          projectPath: Assets\Prefabs\OuterWall3.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Soda.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Soda.prefab
+          projectPath: Assets\Prefabs\Soda.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Soda.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Soda.prefab.meta
+          projectPath: Assets\Prefabs\Soda.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall1.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall1.prefab
+          projectPath: Assets\Prefabs\Wall1.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall1.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall1.prefab.meta
+          projectPath: Assets\Prefabs\Wall1.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall2.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall2.prefab
+          projectPath: Assets\Prefabs\Wall2.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall2.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall2.prefab.meta
+          projectPath: Assets\Prefabs\Wall2.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall3.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall3.prefab
+          projectPath: Assets\Prefabs\Wall3.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall3.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall3.prefab.meta
+          projectPath: Assets\Prefabs\Wall3.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall4.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall4.prefab
+          projectPath: Assets\Prefabs\Wall4.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall4.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall4.prefab.meta
+          projectPath: Assets\Prefabs\Wall4.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall5.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall5.prefab
+          projectPath: Assets\Prefabs\Wall5.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall5.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall5.prefab.meta
+          projectPath: Assets\Prefabs\Wall5.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall6.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall6.prefab
+          projectPath: Assets\Prefabs\Wall6.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall6.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall6.prefab.meta
+          projectPath: Assets\Prefabs\Wall6.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall7.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall7.prefab
+          projectPath: Assets\Prefabs\Wall7.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall7.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall7.prefab.meta
+          projectPath: Assets\Prefabs\Wall7.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall8.prefab
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall8.prefab
+          projectPath: Assets\Prefabs\Wall8.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Wall8.prefab.meta
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\Assets\Prefabs\Wall8.prefab.meta
+          projectPath: Assets\Prefabs\Wall8.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
+            6 - Unity\Tutorial\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 9a0110e58c0b5c7df6a052a1f3a94d90691aaed1
         mergeA: 
         mergeB: 
@@ -4237,13 +4999,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-11-21T13:30:51.098+01:00
+    updatedTimeString: 2022-12-07T10:13:37.902+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-11-21T13:30:51.574+01:00
+    updatedTimeString: 2022-12-07T10:15:16.150+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-11-21T13:30:40.163+01:00
+    updatedTimeString: 2022-12-07T10:15:16.081+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -4289,7 +5051,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 529.60004
-    width: 1094.2
+    width: 1100.6
     height: 293.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -4308,13 +5070,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Sprites
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
     6 - Unity\Tutorial
@@ -4322,9 +5084,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ae640000
-    m_LastClickedID: 25774
-    m_ExpandedIDs: 00000000ac64000000ca9a3b
+    m_SelectedIDs: 4c620000
+    m_LastClickedID: 25164
+    m_ExpandedIDs: 000000003862000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4352,7 +5114,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000038620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4379,8 +5141,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000e2650000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000e2650000f2660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4396,7 +5158,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -4404,7 +5166,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 119.600006}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -4429,9 +5191,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1095.2001
+    x: 1101.6
     y: 73.6
-    width: 439.80005
+    width: 433.40002
     height: 749.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -4473,7 +5235,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 264.6
+    width: 331
     height: 435
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -4482,9 +5244,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 9c690000
       m_LastClickedID: 0
-      m_ExpandedIDs: 38dfffffdaf0ffff64f1ffff20fbffff
+      m_ExpandedIDs: 2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -4890,9 +5652,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 265.6
+    x: 332
     y: 73.6
-    width: 827.6
+    width: 767.6
     height: 435
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -4904,7 +5666,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 827.6, y: 414}
+  m_TargetSize: {x: 767.6, y: 414}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -4919,8 +5681,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -331.04
-    m_HBaseRangeMax: 331.04
+    m_HBaseRangeMin: -307.04
+    m_HBaseRangeMax: 307.04
     m_VBaseRangeMin: -165.6
     m_VBaseRangeMax: 165.6
     m_HAllowExceedBaseRangeMin: 1
@@ -4940,23 +5702,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 827.6
+      width: 767.6
       height: 414
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 413.8, y: 207}
+    m_Translation: {x: 383.8, y: 207}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -413.8
+      x: -383.8
       y: -207
-      width: 827.6
+      width: 767.6
       height: 414
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1034.5, y: 543.75}
+  m_LastWindowPixelSize: {x: 959.5, y: 543.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -4983,10 +5745,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 529.60004
+    width: 1100.6
+    height: 293.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
