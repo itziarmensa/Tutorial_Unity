@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 20
+  controlID: 16
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 68
+  controlID: 66
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 769.6
     height: 456
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
@@ -299,9 +299,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 265.6
+    x: 332
     y: 73.6
-    width: 827.6
+    width: 767.6
     height: 435
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -312,14 +312,14 @@ MonoBehaviour:
     - {fileID: 6268546841574814453, guid: 030ed12f45e63c54baba9951bee0059d, type: 2}
     - {fileID: 7331444912184411833, guid: 73fdc8eb94eda3c40b252056c593e3a9, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.80557096
       e01: 0
       e02: 0
-      e03: 0
+      e03: -40.324158
       e10: 0
-      e11: 1
+      e11: 0.80557096
       e12: 0
-      e13: 0
+      e13: 135.90186
       e20: 0
       e21: 0
       e22: 1
@@ -345,10 +345,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 73fdc8eb94eda3c40b252056c593e3a9,
+  m_AnimatorController: {fileID: 9100000, guid: 030ed12f45e63c54baba9951bee0059d,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 7331444912184411833, guid: 73fdc8eb94eda3c40b252056c593e3a9,
+  - m_Target: {fileID: 6268546841574814453, guid: 030ed12f45e63c54baba9951bee0059d,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -359,7 +359,7 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 0
+  m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 --- !u!114 &13
@@ -600,13 +600,13 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-12-07T10:13:37.902+01:00
+      updatedTimeString: 2022-12-07T13:32:06.920+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-12-07T10:15:16.081+01:00
+      updatedTimeString: 2022-12-07T13:31:55.056+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2022-12-07T10:02:48.627+01:00
+      updatedTimeString: 2022-12-07T13:30:37.906+01:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -4999,13 +4999,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-12-07T10:13:37.902+01:00
+    updatedTimeString: 2022-12-07T13:32:06.920+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-12-07T10:15:16.150+01:00
+    updatedTimeString: 2022-12-07T13:32:07.424+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-12-07T10:15:16.081+01:00
+    updatedTimeString: 2022-12-07T13:31:55.056+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -5070,13 +5070,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\OneDrive\Escritorio\Uni\4t\1r quatri\DSA\Unitat
     6 - Unity\Tutorial
@@ -5084,9 +5084,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4c620000
-    m_LastClickedID: 25164
-    m_ExpandedIDs: 000000003862000000ca9a3b
+    m_SelectedIDs: 8c630000
+    m_LastClickedID: 25484
+    m_ExpandedIDs: 000000007a63000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -5114,7 +5114,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000038620000
+    m_ExpandedIDs: 000000007a630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -5158,7 +5158,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 3}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -5166,7 +5166,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 119.600006}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -5244,7 +5244,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9c690000
+      m_SelectedIDs: 06640000
       m_LastClickedID: 0
       m_ExpandedIDs: 2afbffff
       m_RenameOverlay:
@@ -5262,7 +5262,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
